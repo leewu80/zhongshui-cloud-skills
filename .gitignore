@@ -1,0 +1,39 @@
+# 敏感信息 - 原始未脱敏文件
+*_raw.*
+*_original.*
+*原始*
+*未脱敏*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+*.temp
+
+# 日志
+*.log
+logs/
+
+# 敏感配置
+.env
+config.local.*
+secrets/
+credentials/
